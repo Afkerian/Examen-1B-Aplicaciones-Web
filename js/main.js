@@ -1,7 +1,7 @@
 'use strict'
 window.addEventListener('load', () => {
 
-  // Menu Responsive
+  
   const ham = document.querySelector('.ham');
   const enlaces = document.querySelector('nav ul');
   const barras = document.querySelectorAll('.ham span');
@@ -11,7 +11,6 @@ window.addEventListener('load', () => {
     barras.forEach(child => { child.classList.toggle('animado') });
   });
 
-  //Slider Actions
   var options = {
     accessibility: true,
     prevNextButtons: true,
@@ -54,8 +53,6 @@ window.addEventListener('load', () => {
 
     const xhttp = new XMLHttpRequest();
 
-    xhttp.open('GET', 'js/catalogo.json', true);
-
     xhttp.send();
 
     xhttp.onreadystatechange = function () {
@@ -76,8 +73,7 @@ window.addEventListener('load', () => {
       }
     }
   }
-  //Cambios de temas
-
+  
   document.getElementById('btn_tema1').addEventListener('click', tema1);
   function tema1() {
     document.body.style.background = "url('Images/fondo1.jpg') no-repeat center center fixed";
@@ -100,7 +96,6 @@ window.addEventListener('load', () => {
   }, 0);
 
 
-  // Acordeon 
   document.querySelector('#BotonAbout').addEventListener('click', Acordeon);
   function Acordeon() {
     $('.hero-slider').hide();
@@ -112,8 +107,6 @@ window.addEventListener('load', () => {
       $(this).toggleClass("active").next().slideToggle();
     });
   }
-
-  //Reloj
 
   document.querySelector('#BotonReloj').addEventListener('click', digitalClock);
   const $tiempo = document.querySelector('.tiempo'),
@@ -142,7 +135,7 @@ window.addEventListener('load', () => {
     $fecha.innerHTML = `${anio}-${mes}-${dia} ${showSemana}`
   }
 
-  // Validacion de Form
+  
   document.querySelector('#BotonContacto').addEventListener('click', Contacto)
   const btnEnviar = document.getElementById('btn-enviar');
 
@@ -174,7 +167,7 @@ window.addEventListener('load', () => {
         return false;
       }
 
-      return true; //Se pueden enviar los datos del formulario al servidor
+      return true; 
     }
 
     const emailVálido = email => {
@@ -184,7 +177,7 @@ window.addEventListener('load', () => {
     btnEnviar.addEventListener('click', validación);
   }
 
-  //Procesamiento de datos url: https://rickandmortyapi.com/api/character/?page=3
+  
   document.querySelector('#BotonAmigos').addEventListener('click', Amigos);
   function Amigos() {
     traer_amigos();

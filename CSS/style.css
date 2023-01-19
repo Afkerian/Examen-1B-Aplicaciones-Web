@@ -50,7 +50,7 @@ nav{
     align-items: center;
     justify-content: space-around;
     min-width: 8vh;
-    background-color: rgba(231, 216, 216, 0.753);
+    background-color: rgba(141, 138, 138, 0.753);
 
 }
 .ham{
@@ -259,7 +259,7 @@ nav ul.activado{
     border-radius: 15px 15px;
     padding-top: 10px;
     align-items: center;
-    background-color: rgba(231, 216, 216, 0.753);
+    
     padding: 20px;
     
 }
@@ -431,7 +431,7 @@ input[type=name], select {
     margin-top: 50%;
     border-radius: 15px 15px;
     align-items: center;
-    background-color: rgba(231, 216, 216, 0.753);
+    background-color: rgba(141, 138, 138, 0.753);
     padding: 5px;
 }
 .btn_tema img{
@@ -451,7 +451,7 @@ input[type=name], select {
     margin-top: 50%;
     border-radius: 15px 15px;
     align-items: center;
-    background-color: rgba(231, 216, 216, 0.753);
+    background-color: rgba(141, 138, 138, 0.753);
     padding: 5px;
 }
 
@@ -474,7 +474,7 @@ input[type=name], select {
   border-radius: 15px 15px;
   padding-top: 10px;
   align-items: center;
-  background-color: rgba(231, 216, 216, 0.753);
+  background-color: rgba(141, 138, 138, 0.753);
   padding: 20px;
 }
 
@@ -485,7 +485,7 @@ input[type=name], select {
 	cursor: pointer;
 	font-weight: 600;
 	padding: 1.5rem;
-    background-color: rgba(231, 216, 216, 0.753);
+    background-color: rgba(141, 138, 138, 0.753);
 }
 
 .acordeon-cabecera:hover {
@@ -501,7 +501,7 @@ input[type=name], select {
     font-size: 1.8rem;
 	display: none;
 	border-bottom: 1px solid #DDE0E7;
-	background: rgba(231, 216, 216, 0.753);
+	background: rgba(141, 138, 138, 0.753);
 	padding: 1.4rem;
 	color: #4a5666;
 }
@@ -542,7 +542,7 @@ input[type=name], select {
     border-radius: 15px 15px;
     padding-top: 10px;
     align-items: center;
-    background-color: rgba(231, 216, 216, 0.753);
+    background-color: rgba(141, 138, 138, 0.753);
     padding: 20px;
 }
 #formulario table{
@@ -576,7 +576,7 @@ input[type=name], select {
     border-radius: 15px 15px;
     padding-top: 10px;
     align-items: center;
-    background-color: rgba(231, 216, 216, 0.753);
+    background-color: rgba(141, 138, 138, 0.753);
     padding: 20px;
 }
 
